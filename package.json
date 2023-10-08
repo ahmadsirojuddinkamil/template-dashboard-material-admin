@@ -1,55 +1,39 @@
 {
-  "name": "next-material-kit",
-  "version": "1.2.1",
-  "description": "NextJS Version of Material Kit React by Creative Tim (https://creative-tim.com)",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "next",
-    "build": "next build",
-    "start": "next start",
-    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && rm -rf .next/ && npm install && npm run dev"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/creativetimofficial/nextjs-material-kit.git"
-  },
-  "keywords": [
-    "next",
-    "nextjs",
-    "react",
-    "reactjs",
-    "npx",
-    "material",
-    "material-design",
-    "material-kit",
-    "material-kit-react",
-    "next-material-kit"
-  ],
-  "author": "Creative Tim",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/creativetimofficial/nextjs-material-kit/issues"
-  },
-  "homepage": "https://demos.creative-tim.com/nextjs-material-kit",
+  "name": "Material_Free",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
   "dependencies": {
-    "@material-ui/core": "4.11.4",
-    "@material-ui/icons": "4.11.2",
-    "classnames": "2.3.1",
-    "moment": "2.29.4",
-    "next": "12.2.5",
-    "nouislider": "15.1.0",
-    "prop-types": "15.8.1",
-    "react": "18.2.0",
-    "react-datetime": "3.1.1",
-    "react-dom": "18.2.0",
-    "react-slick": "0.29.0",
-    "styled-components": "5.3.5",
-    "sass": "1.54.4",
-    "webpack": "5.74.0"
+    "chart.js": "2.6.0",
+    "del": "2.2.2",
+    "jquery": "3.2.1",
+    "material-components-web": "^0.27.0",
+    "mdi": "2.0.46",
+    "progressbar.js": "1.0.1"
   },
-  "peerDependencies": {
-    "react": ">=16.0.0",
-    "react-dom": ">=16.0.0"
-  }
+  "devDependencies": {
+    "browser-sync": "^2.16.0",
+    "compass-mixins": "^0.12.10",
+    "gulp": "^3.9.1",
+    "gulp-bower-src": "^0.1.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-filter": "^4.0.0",
+    "gulp-inject": "4.2.0",
+    "gulp-inject-partials": "^1.0.3",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.5.4",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^2.0.0",
+    "main-bower-files": "^2.13.1",
+    "minimatch": "^3.0.4",
+    "run-sequence": "^1.2.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "bootstrapdash",
+  "url": "http://www.bootstrapdash.com/",
+  "copyright": "",
+  "license": ""
 }
